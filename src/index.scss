@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Open+Sans:wght@300&display=swap");
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif sans-serif;
+  font-family: "Fira Sans", sans-serif sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -8,4 +9,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+* {
+  font-family: "Fira Sans";
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
